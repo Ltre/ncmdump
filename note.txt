@@ -1,0 +1,12 @@
+编译&安装
+yum install openssl openssl-devel gcc-c++ git taglib taglib-devel -y
+git clone https://github.com/anonymous5l/ncmdump.git
+cd ncmdump/
+make
+#编译后会在ncmdump目录生成执行文件ncmdump，先给予权限
+chmod 755 ncmdump
+
+
+执行就一行命令的事，执行速度也很快，基本是秒转，最重要的原歌曲的封面图、码率不会丢。
+
+ncmdump 文件路径
